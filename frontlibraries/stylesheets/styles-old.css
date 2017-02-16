@@ -1,0 +1,55 @@
+
+/* Fancybox */
+/* line 1259, ../sass/styles.scss */
+.fancybox-overlay {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKElEQVQIW2NkYGCoZ2BgaGRgYDBmYGA4y8gAAXBBkABYBiYIUwEXBADYvga3XkcgKAAAAABJRU5ErkJggg==");
+}
+
+/* line 1263, ../sass/styles.scss */
+.fancybox-close {
+  position: fixed;
+  top: 0;
+  right: 25px;
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  line-height: 64px;
+  font-size: 32px;
+  background-color: #000;
+}
+/* line 1275, ../sass/styles.scss */
+.fancybox-close:before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+}
+/* line 1280, ../sass/styles.scss */
+.fancybox-close:hover {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+/* line 1288, ../sass/styles.scss */
+.fancybox-nav span {
+  width: 64px;
+  height: 64px;
+  margin-top: -32px;
+  text-align: center;
+  line-height: 68px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 1296, ../sass/styles.scss */
+.fancybox-nav span:before {
+  font-family: "FontAwesome";
+  font-size: 32px;
+}
+
+/* line 1303, ../sass/styles.scss */
+.fancybox-next span:before {
+  content: "\f054";
+}
+
+/* line 1307, ../sass/styles.scss */
+.fancybox-prev span:before {
+  content: "\f053";
+}
