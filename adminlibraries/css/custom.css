@@ -1,0 +1,22 @@
+.select2-container--default .select2-selection--single {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 2px 0px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    font-size: 14px;
+}
+.select2-container--default .select2-selection--single:focus {
+    border-color: #1ab394 !important;
+}
+.select2-container .select2-selection--single {
+    height:34px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b { margin-top:1px; }
+.form-control.error { border:1px solid #ccc; }
+.pointer { cursor:pointer; }
+.float-e-margins .btn { margin-bottom:auto; }
