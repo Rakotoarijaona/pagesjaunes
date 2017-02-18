@@ -2380,6 +2380,8 @@ overflow: hidden;*/ text-overflow: ellipsis; }
 .detail-description .service-wrapper li { color: #000; }
 
 .form-wrapper a { color: #ffdd00; }
+.form-wrapper a.btn { color: #000; }
+.form-wrapper a.btn:hover { color: #fff; }
 
 /* footer */
 .main-footer { background: #252525; padding: 30px 0; }
