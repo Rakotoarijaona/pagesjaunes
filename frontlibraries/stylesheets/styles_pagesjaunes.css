@@ -2579,3 +2579,8 @@ video::-webkit-media-controls-fullscreen-button { display: none; }
 label.error {color: red;}
 .removable-input .btn-remove {position: absolute; right: 10px;}
 .thumbnail {display: block; padding: 0px !important; margin-bottom: 20px !important; line-height: 1.42857143; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: border .2s ease-in-out; -o-transition: border .2s ease-in-out; transition: border .2s ease-in-out;}
+
+/* YWA */
+#form-search .select2-selection__choice { background:transparent;border:none;padding-left:0px;padding-right:0px; }
+#form-search .select2-selection__choice__remove { display:none; }
+#form-search .select2-selection--multiple { padding-left:5px; }

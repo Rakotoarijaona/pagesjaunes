@@ -214,9 +214,9 @@ $(document).ready( function (){
     /* ellipsis */
     if ( $('.ellipsis').length > 0 ) {
         // console.log ('ok');
-        $(".ellipsis").dotdotdot({
+        /*/$(".ellipsis").dotdotdot({
             watch: "true"
-        });
+        });*/
     }
 
 
