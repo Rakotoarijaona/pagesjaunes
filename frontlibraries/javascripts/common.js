@@ -138,6 +138,7 @@ $(document).ready( function (){
     });
 
     // Layout options
+    $('.result-wrapper').addClass('layout-list');
     $('input[name=layout-option]').on ('change', function () {
         if ( $(this).val() == 0 ) {
             $('.result-wrapper').removeClass('layout-list');
@@ -145,6 +146,7 @@ $(document).ready( function (){
             $('.result-wrapper').addClass('layout-list');
         }
     })
+
     $(document).click (function () {
         if (!submenuHover) {
             $('.btn-category').removeClass('active');

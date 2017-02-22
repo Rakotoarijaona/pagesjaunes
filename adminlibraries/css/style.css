@@ -1513,6 +1513,13 @@ a.list-group-item.active:focus {
   margin-top: 15px;
   position: relative;
 }
+a.stat-view-more
+{
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+  position: relative;
+}
 /* DATATABLES */
 table.dataTable thead .sorting,
 table.dataTable thead .sorting_asc:after,
